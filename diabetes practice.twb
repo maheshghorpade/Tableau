@@ -1,0 +1,1160 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='diabetes' inline='true' name='federated.0dil67a1juv5cn14aqx4818v781u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='diabetes' name='textscan.09okxwu1e2thiu1arcxg60xlej5q'>
+            <connection class='textscan' directory='C:/Users/HP/Downloads' filename='diabetes.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.09okxwu1e2thiu1arcxg60xlej5q' name='diabetes.csv' table='[diabetes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Pregnancies' ordinal='0' />
+            <column datatype='integer' name='Glucose' ordinal='1' />
+            <column datatype='integer' name='BloodPressure' ordinal='2' />
+            <column datatype='integer' name='SkinThickness' ordinal='3' />
+            <column datatype='integer' name='Insulin' ordinal='4' />
+            <column datatype='real' name='BMI' ordinal='5' />
+            <column datatype='real' name='DiabetesPedigreeFunction' ordinal='6' />
+            <column datatype='integer' name='Age' ordinal='7' />
+            <column datatype='integer' name='Outcome' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pregnancies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pregnancies]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>Pregnancies</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Glucose</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Glucose]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>Glucose</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BloodPressure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BloodPressure]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>BloodPressure</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SkinThickness</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SkinThickness]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>SkinThickness</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insulin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Insulin]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>Insulin</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BMI]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>BMI</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiabetesPedigreeFunction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DiabetesPedigreeFunction]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>DiabetesPedigreeFunction</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Outcome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Outcome]</local-name>
+            <parent-name>[diabetes.csv]</parent-name>
+            <remote-alias>Outcome</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Blood Pressure' datatype='integer' name='[BloodPressure]' role='measure' type='quantitative' />
+      <column caption='Age Bar' datatype='string' name='[Calculation_787848482715275264]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='if [Age]&lt;= 30 THEN &quot;20-30&quot;&#13;&#10;ELSEIF [Age] &gt;30 AND [Age]&lt;=40 THEN&quot;30-40&quot;&#13;&#10;ELSEIF [Age]&gt; 40 AND [Age]&lt;=50 THEN &quot;40-50&quot;&#13;&#10;ELSEIF [Age]&gt; 50 AND [Age]&lt;=60 THEN &quot;50-60&quot;&#13;&#10;ELSEIF [Age]&gt; 60 AND [Age]&lt;=70 THEN &quot;60-70&quot;&#13;&#10;ELSEIF [Age]&gt; 70 AND [Age]&lt;=85 THEN &quot;70-85&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Diabetes Pedigree Function' datatype='real' name='[DiabetesPedigreeFunction]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Glucose]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Insulin]' role='measure' type='quantitative' />
+      <column caption='Skin Thickness' datatype='integer' name='[SkinThickness]' role='measure' type='quantitative' />
+      <column caption='diabetes.csv' datatype='table' name='[__tableau_internal_object_id__].[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]' role='measure' type='quantitative' />
+      <column-instance column='[Glucose]' derivation='Avg' name='[avg:Glucose:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Insulin]' derivation='Avg' name='[avg:Insulin:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Glucose]' derivation='Sum' name='[sum:Glucose:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Insulin]' derivation='Sum' name='[sum:Insulin:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/HP/AppData/Local/Temp/TableauTemp/#TableauTemp_11u8eqs00sgf4s188htnh05yfuby.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/08/2024 07:42:53 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Pregnancies</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pregnancies]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pregnancies</remote-alias>
+              <ordinal>0</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Glucose</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Glucose]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Glucose</remote-alias>
+              <ordinal>1</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>136</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BloodPressure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BloodPressure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BloodPressure</remote-alias>
+              <ordinal>2</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SkinThickness</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SkinThickness]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SkinThickness</remote-alias>
+              <ordinal>3</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insulin</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Insulin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Insulin</remote-alias>
+              <ordinal>4</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>186</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BMI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[BMI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BMI</remote-alias>
+              <ordinal>5</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>248</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DiabetesPedigreeFunction</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[DiabetesPedigreeFunction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DiabetesPedigreeFunction</remote-alias>
+              <ordinal>6</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>517</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>7</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>52</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Outcome</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Outcome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Outcome</remote-alias>
+              <ordinal>8</ordinal>
+              <family>diabetes.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes.csv_2707CAE380FF4681923472AEF893BFC6]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0dil67a1juv5cn14aqx4818v781u].[sum:Glucose:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Insulin:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0dil67a1juv5cn14aqx4818v781u].[sum:Insulin:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='diabetes.csv' id='diabetes.csv_2707CAE380FF4681923472AEF893BFC6'>
+            <properties context=''>
+              <relation connection='textscan.09okxwu1e2thiu1arcxg60xlej5q' name='diabetes.csv' table='[diabetes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Pregnancies' ordinal='0' />
+                  <column datatype='integer' name='Glucose' ordinal='1' />
+                  <column datatype='integer' name='BloodPressure' ordinal='2' />
+                  <column datatype='integer' name='SkinThickness' ordinal='3' />
+                  <column datatype='integer' name='Insulin' ordinal='4' />
+                  <column datatype='real' name='BMI' ordinal='5' />
+                  <column datatype='real' name='DiabetesPedigreeFunction' ordinal='6' />
+                  <column datatype='integer' name='Age' ordinal='7' />
+                  <column datatype='integer' name='Outcome' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average Glucose by Age bar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diabetes' name='federated.0dil67a1juv5cn14aqx4818v781u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0dil67a1juv5cn14aqx4818v781u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Bar' datatype='string' name='[Calculation_787848482715275264]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [Age]&lt;= 30 THEN &quot;20-30&quot;&#13;&#10;ELSEIF [Age] &gt;30 AND [Age]&lt;=40 THEN&quot;30-40&quot;&#13;&#10;ELSEIF [Age]&gt; 40 AND [Age]&lt;=50 THEN &quot;40-50&quot;&#13;&#10;ELSEIF [Age]&gt; 50 AND [Age]&lt;=60 THEN &quot;50-60&quot;&#13;&#10;ELSEIF [Age]&gt; 60 AND [Age]&lt;=70 THEN &quot;60-70&quot;&#13;&#10;ELSEIF [Age]&gt; 70 AND [Age]&lt;=85 THEN &quot;70-85&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Glucose]' role='measure' type='quantitative' />
+            <column-instance column='[Glucose]' derivation='Avg' name='[avg:Glucose:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_787848482715275264]' derivation='None' name='[none:Calculation_787848482715275264:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]' />
+              <color column='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]' />
+              <text column='[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{546728BD-6F9F-4B98-826F-F0C762F229FF}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diabetes' name='federated.0dil67a1juv5cn14aqx4818v781u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0dil67a1juv5cn14aqx4818v781u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Bar' datatype='string' name='[Calculation_787848482715275264]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [Age]&lt;= 30 THEN &quot;20-30&quot;&#13;&#10;ELSEIF [Age] &gt;30 AND [Age]&lt;=40 THEN&quot;30-40&quot;&#13;&#10;ELSEIF [Age]&gt; 40 AND [Age]&lt;=50 THEN &quot;40-50&quot;&#13;&#10;ELSEIF [Age]&gt; 50 AND [Age]&lt;=60 THEN &quot;50-60&quot;&#13;&#10;ELSEIF [Age]&gt; 60 AND [Age]&lt;=70 THEN &quot;60-70&quot;&#13;&#10;ELSEIF [Age]&gt; 70 AND [Age]&lt;=85 THEN &quot;70-85&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Glucose]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Insulin]' role='measure' type='quantitative' />
+            <column-instance column='[Glucose]' derivation='Avg' name='[avg:Glucose:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Insulin]' derivation='Avg' name='[avg:Insulin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_787848482715275264]' derivation='None' name='[none:Calculation_787848482715275264:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]' value='250' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Insulin:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0dil67a1juv5cn14aqx4818v781u].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f9a655' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0dil67a1juv5cn14aqx4818v781u].[avg:Insulin:qk] + [federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk])</rows>
+        <cols>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</cols>
+      </table>
+      <simple-id uuid='{A2CCFBBA-F63A-4D26-BC30-E5F4D2F38244}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diabetes' name='federated.0dil67a1juv5cn14aqx4818v781u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0dil67a1juv5cn14aqx4818v781u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Bar' datatype='string' name='[Calculation_787848482715275264]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [Age]&lt;= 30 THEN &quot;20-30&quot;&#13;&#10;ELSEIF [Age] &gt;30 AND [Age]&lt;=40 THEN&quot;30-40&quot;&#13;&#10;ELSEIF [Age]&gt; 40 AND [Age]&lt;=50 THEN &quot;40-50&quot;&#13;&#10;ELSEIF [Age]&gt; 50 AND [Age]&lt;=60 THEN &quot;50-60&quot;&#13;&#10;ELSEIF [Age]&gt; 60 AND [Age]&lt;=70 THEN &quot;60-70&quot;&#13;&#10;ELSEIF [Age]&gt; 70 AND [Age]&lt;=85 THEN &quot;70-85&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Insulin]' role='measure' type='quantitative' />
+            <column-instance column='[Insulin]' derivation='Avg' name='[avg:Insulin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_787848482715275264]' derivation='None' name='[none:Calculation_787848482715275264:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</rows>
+        <cols>[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Insulin:qk]</cols>
+      </table>
+      <simple-id uuid='{B807CDFC-FFA6-404E-B12F-C2EB60263CCE}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diabetes' name='federated.0dil67a1juv5cn14aqx4818v781u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0dil67a1juv5cn14aqx4818v781u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Age Bar' datatype='string' name='[Calculation_787848482715275264]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [Age]&lt;= 30 THEN &quot;20-30&quot;&#13;&#10;ELSEIF [Age] &gt;30 AND [Age]&lt;=40 THEN&quot;30-40&quot;&#13;&#10;ELSEIF [Age]&gt; 40 AND [Age]&lt;=50 THEN &quot;40-50&quot;&#13;&#10;ELSEIF [Age]&gt; 50 AND [Age]&lt;=60 THEN &quot;50-60&quot;&#13;&#10;ELSEIF [Age]&gt; 60 AND [Age]&lt;=70 THEN &quot;60-70&quot;&#13;&#10;ELSEIF [Age]&gt; 70 AND [Age]&lt;=85 THEN &quot;70-85&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='integer' name='[Pregnancies]' role='measure' type='quantitative' />
+            <column-instance column='[Pregnancies]' derivation='Avg' name='[avg:Pregnancies:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_787848482715275264]' derivation='None' name='[none:Calculation_787848482715275264:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Pregnancies:qk]</rows>
+        <cols>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</cols>
+      </table>
+      <simple-id uuid='{D6CC1662-E985-46B1-B8D9-4E31B426A8DA}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diabetes' name='federated.0dil67a1juv5cn14aqx4818v781u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0dil67a1juv5cn14aqx4818v781u'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Blood Pressure' datatype='integer' name='[BloodPressure]' role='measure' type='quantitative' />
+            <column caption='Age Bar' datatype='string' name='[Calculation_787848482715275264]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [Age]&lt;= 30 THEN &quot;20-30&quot;&#13;&#10;ELSEIF [Age] &gt;30 AND [Age]&lt;=40 THEN&quot;30-40&quot;&#13;&#10;ELSEIF [Age]&gt; 40 AND [Age]&lt;=50 THEN &quot;40-50&quot;&#13;&#10;ELSEIF [Age]&gt; 50 AND [Age]&lt;=60 THEN &quot;50-60&quot;&#13;&#10;ELSEIF [Age]&gt; 60 AND [Age]&lt;=70 THEN &quot;60-70&quot;&#13;&#10;ELSEIF [Age]&gt; 70 AND [Age]&lt;=85 THEN &quot;70-85&quot;&#13;&#10;END' />
+            </column>
+            <column-instance column='[BloodPressure]' derivation='Avg' name='[avg:BloodPressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_787848482715275264]' derivation='None' name='[none:Calculation_787848482715275264:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]' />
+              <wedge-size column='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:BloodPressure:qk]' />
+              <size column='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:BloodPressure:qk]' />
+              <text column='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:BloodPressure:qk]' />
+              <text column='[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D9BDF08F-29D9-4DA0-A123-1F49CE9B2ED5}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[:Measure Names]</field>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</field>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Outcome:qk]</field>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[sum:Glucose:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7979DC06-F3E0-4E4E-8C29-3AA245A27FCB}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8D589008-4545-4AB4-80F6-418D496AF4FE}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{392E2CFE-A5F8-42C0-B40B-710E6BD3C9B7}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:BloodPressure:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[none:Calculation_787848482715275264:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3D809DFB-8288-4D0C-95AC-3F74304AB976}' />
+    </window>
+    <window class='worksheet' name='Average Glucose by Age bar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0dil67a1juv5cn14aqx4818v781u].[avg:Glucose:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{39476802-04B5-4150-AC9A-EFC5D1FD04E9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average Glucose by Age bar' width='192'>
+      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
+      eD+Usf5owvMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAASv0lEQVR4nO3dW2wcWV7H8e+p6qvttmMnsWNPMrlfnOskzn3YnVnt7IJgZwQM0ryseGIf
+      EPDAC+INEA+gXVgELOIBrVYCgYAVl92HBSG0DJfdyWZ2knGcxLlMHNvxrd12t93ubvelqg4P
+      1e7Ys7GdS7u74/P/SFa647JPdbt+55yqrvqX0lprhDCUVe8VEKKeah6AQqFQ6yaFWFXNA5DN
+      ZmvdpBCrkimQMJoEQBhNAiCMJgEQRpMACKMFlh4UCoWaHKGRo0CikVQCEA6HCYfDNWm0o6Oj
+      Ju0IsR6ZAgmjSQCE0SQAwmgSAGE0CYAwmgRAGE0CIIwmARBGkwAIo0kAhNEkAMJoEgBhNAmA
+      MFpg/UVWp7VmZnKE5GKAw/t3kk7GGRoZR4VbOHbkIPGRe0zMZjnQe4z25tqcaSrEs3ihEcBz
+      CjiWYiGV9p+rIMdOvka0OM/U9DjDsw6nTx5icOAWUn1LNKIXGgHsYITuHV1MjT8EYEt7O5Mj
+      90kUAhynQEt7B4FQC8or4GmNdl08z6NUKlVl5YV4US8UgE8b/+QW004zl869hpeNU0jkQDto
+      ZWMphQoEsCyLYDBYzWaFeG4vFIBiPs3tW3eYTqS5+zBGNjGLEyxw/XqawyeOEvPGuHJlit0H
+      T6CqtcZCVJGqdXHcZDIpl0SKhiGHQYXRJADCaBIAYTQJgDBaVQ+DisanSzlwHbAsUDYoC2XZ
+      aGWhUKDMOl4nAdjEtOdCNoG3MAmZKXQmji5kAb36hq78YChlgWX7Xyqw7LGNWhaeFV/l7y//
+      OVV5vOxnln7e8n+vsgL+Y/WpZa1l61LlYGq3hJ4blQBsJrqYRafH0QtT6Ow0OpsA7fkbE6CU
+      QtlP8yfXoF1wXXCf+N3yA73iFBe1/HvrNqHLS+tlj5d+C/4Gr5e1tixo6glB8x9bqPWCqSx0
+      bgadngBkBHhp+b37NF56AjJxv3cvZvyeFIVSlHvODdzNU+onPuB86n76uXt0DZ4DOM8UzhVN
+      U35vkAA0vMrnlKUsen4cvTBZ7t1n/N7dCvgbnVIoO1TPVW0sTwjnk0gAGozW5elHZql3n0Jn
+      ptHFLNiBSs+lLBuw67uym4AEoI700ty3mEXPj/lz91yiPHfXKPvxSYMqIL37RpAA1JDWGryS
+      36MvTKIzU5BJoEtZfypT6d3lz1Ir8k5vEH8q40ExUz4yM4nOzqBzs37vbtmVHUGZu9ePBKBK
+      tPbALaKzCXR6Ap2JQzaBLi36x7pXzN1Fo5AAPAd/KuNCccHf2Jd698XkE3p3ufinkUkAnoLW
+      HjgF//BjetLv3XMz0rtvAhKAT/F7dwcKC/7cPTNV7t1TgC5/0ii9+2ZhfAC054KT9+fuC5Po
+      hSlYTErvbgjjAqDdEuTn0QsT5XNmZtD5OfwTxGyU9O5GMS4A7t3voecfSe8ugBe8IEZrzcJc
+      gpGxOABOPstA/3VGJ2fQwMzkCNc/HiBbcKqxrtXhFlF2sLLxC7O9WGW4UoFEcob4xAwAt258
+      zCsHjjIzepf0/CyDwymOHtpJf79UhhON6cUqw4Ui7Nu3l/mUXxku61q0N4fJtcaYnJqgtbOL
+      cFM7yr3TMJXhtOeC59WtfdFYqroPEFTgeJq84xBr38JCuuif2YjVMJXhnPKFE0JAVSrDDTI2
+      nqKpI8benZ18ePUqViDKuZ7dzExe5cqVMXbs7pXKcKIhGVcZzhn4Niwm69a+aCwyFxBGkwAI
+      o0kAhNEkAMJoEgBhNAmAMJoEQBhNAiCMJgEQRpMACKNJAITRJADCaBIAYTQJgDCaBEAYTQIg
+      jCYBEEYzri6QlxpGZ6dRgQgEIqhg1P9XagMZybgA6GIWvTi34mZqKMAKlsMQLocjigpFUVbQ
+      uHvnmsS4AACV8oflJ/6/2vUL4hYWyuEo375TWZ8KRgQVbIJgRIprbQJVDcDy6+uVUj/xvOGt
+      uLOgenzPTyePLi0uGzXKdYXs0MpwBKN+OMq3OFq6e6NoXFUNwNDtj5nJuSwu5jl/8Rz9V36I
+      CgaIbd/PsQM91Wyq5laOGuX9Be1CMePfBonyfQRWGzVCTRCIsJSql6JDMEBVA5DJLnLg6GlG
+      b3/MQmKMUNdB+g6/wgcfXEHv764sV+NKLD9h49pXlR5flxbhCaOGssMQjKw6aojaWvdd//TG
+      slbP1dLSzPC9QUpeAKU9bPvxkRUPKqURHad+xXLrFr7y/oL2SlAo+fsb/n+wVJqdQATskB+K
+      QASCTahAuBwqGTE2wtoB8Bz+8Zt/wWjawQL6PvcOb545uOri8ZlZjp25yOjta5TC7aSHh5hv
+      97Aj7dhKQQOURvSUaqx5uVp2+NUt+F/FhcpdJrVS/qgRCJdHjWh51IiCZQNKplMvYO0AaJeR
+      RJ7f+O3fIvIU7/H5i5d48MkQW/cco3t7O1tCMDo1z5lTh6u0uuZQSj0Oh1eCYsnf19D68Q22
+      rYA/QlSCUT5CZYcqI46EY23rTIEUrcEMX//a14kGFX1vvs0ba4wAgVCUw0ePVZ43t22jt21b
+      tdZVgH+kqrJRa3Dy/lEq5h/fm/gJo4YK+gHx9zVk1FiyagCc3BxjqQJv/swvkl70y5nv6Nla
+      sxUTz26tUcNbGjXsICoUQzV1oCJt/hErg8OwagA8p0g6uwjFAvl8EQDHlbr6L6Xlo4b2oDCP
+      l0/590SLtKKi5oZh1QBYgRDZ2QcAlZ1WyzLrzdnM/E+xNeTn8RZT/u1fI62opq2ocKsxYVhj
+      H0CjtYfnPT5sWO/j92JjfDoM/sjQ5k+Twq2b+kTBVQMQaGrn8oVzfPtvv8XYbI707DTnvrSN
+      vT2yU7uZLYVBL6bQi0n/SFO4tRyGGGqTfWC39quxgrz75a+gtWb4w+/xw/lcjVZL1Jta+vBN
+      e5BP4S0m/Y0/vDRNatkUYVjng7AS//R332JsJkchn+ONd07VaLVEYynvRGtv2cgQREViqOjL
+      HYZ1RoAAR3pP89mdXbz//lV2y/THeI9HBhedS6FzS2FoxYp2QDj2Uu0zrH1Cu5vnH777H/zf
+      v/0zrrPAd96/VqPVEi8DpRRKWSjtQi6JO3sfb2oANzmEzs/7t6RtcGuPAHaYU7tbuDFl8bPn
+      25lr3VGj1RIvHaVQ5ZGBXBI3N+tfTRdpw2rqgFBLQ44MawdAWbz1znu8NpcBYN92CYB4CivC
+      MIubm0HZQQg3XhjWDoBT4E/+6Gu8dvlNAgr22c1s39JSo1UTm8JSGLxlYbBCqEgrNHWg6hyG
+      dXeCu9q30LP3IG1B6NgSq9FqiU2pMjI46NwsOjeDskP+NCnaAaHmmodh3WNXfZcvM/toiFlA
+      R7bQ1SEhEFVQGRkcdHYGN5tA2SFUdIv/SXS4FcItG154YPUAuEX++q/+nIfxTOW/gtv2cXRv
+      96o/IsTzqBxaLYdBaw0Lk+XRYUt5v6F5Q8KgdI1P8Ekmk3R0dNSyyRUK//m7sDBRt/bFs1na
+      PJUdREW2oKochpfz4zthjMoZqZ6Dl01ANlG1MGjtPX1t0LnRAb77vzeeqyEhqkEtXddQDoOb
+      uIs3dRNvbtQvaKaf7XoVnZ5c75pgjeM6aA1NXQf5YldjHLsV4vHIUMLLTENmurITraLt/mcN
+      a1zPoPPzeJmp9QJQ4ht/8Hvo1k7mp0bJEuXEpS/wy++8scrymsTUOEUrQk/nNgrZeeLJDDt3
+      9mDLxTRig6wehvZyGJpXhEG7RbzUsF8Sds3f7Lkk8xa/8qu/zpff+Sz7Tl5k8MaHqy4+9uA2
+      s4sQVB5uKcfV67cJWXmuDdyvxusUYl2Pp0klvEwcN3EHb2oAb+4RupDxL/JKjaBd/zr3dc4F
+      ivDe25/lT7/6hygrzLvv/QJ3tzSvuvjD0TFiHUXGMmGiOkusezfdO7sZfnQFT2u056G1rn9h
+      LLmyzSjaLaIzcchMgQr4p2jgbwvrXg/wYHyWL3zp5zl17AiRoM2R/ftXXdwONXH0xCni9/oZ
+      T2m0FVrxfcvyrzO1rPpVVVYKZPM3laps/EvWvSLsc59/i/5rP+aPf/9vOPHFL/POTx1fdfE9
+      PVvp7x+glMvSe/oQg9c+4kZugtjWXVjL5mD1DIDUxBHLrVsZ7gff/3fuPZphV+9ZTh14Zc3F
+      u/f20pFfRNlBQqEgFy5dolB0iEYj1VxnIapm3cpwFz73c7wVayUZHyXjrj13V0oRiTZVntuB
+      IE2B+tUBFWI9qwdAezy8f4sffvAjRh/eZ8LZym/+2ldquGpCbLzVJ+NukW/+5TdwW1/ll95+
+      iz3H+tjXU79zeITYCKsHwA7zO1/9M87sjvH+BzeI3/xvfjDwsIarJsTGW30KpBTBUITjfZc5
+      duYSnutQdKQ2qNhcnupsUKUUdiBIVM4dFZuM3OdTGE0CIIwmARBGkwAIo0kAhNEkAMJoEgBh
+      NAmAMJoEQBhNAiCMJgEQRpMACKNJAITRJADCaFUPgOc6ZLL+/YRLxTypuTSe1OERDarKAdAM
+      373F939wBe3muXrlQ+ITQ9wYHKluM0JUSVUvccmnE6RpYVssQyE1RXTHPo4c6uGDD67g6d2g
+      NVprPK+eV5ZpanxLBNHAqjgCeFy/NkB7WzPpdJpsobRqASpdDkI9voRYrqojwP7DvRScEo7j
+      EGrrJDt0i2E7TaS1y68MVy5catv1K7PuSGU4sUwVA2DR2d0DQEdHB83NzZw7e5JkepGTe7ZV
+      rxkhqmhDLnNvbvYrSIejLXRH5b7ConHJ5wDCaBIAYTQJgDCaBEAYTQIgjCYBEEaTAAijSQCE
+      0SQAwmgSAGE0CYAwmgRAGE0CIIwmARBGkwAIo0kAhNEkAMJoEgBhNAmAMJoEQBitqhfFz0wM
+      Mzwxg0uA06dPMnKnn9mFPHsOn2RHe3M1mxKiKqo6AjS3d9HX18fWkEt8apRZJ8bFC2cZunML
+      KUklGlFVR4BIJMzQ4MckvSZ6Ay7JlhZQQZR28bRGuy6e51EqlarZ7DPRWoNUiBNlVQ3A8O3r
+      lGK7OP9qJ24uQW4iieduASuEpRQqEMCyLILBYDWbfSZeuUKdEFDlKVCu4JBJPOKjj/pZDLTT
+      3Vziwx/f4NCxY8gmJxpRVUeAY2curHjecug4e6rZgBBVJodBhdEkAMJoEgBhNAmAMJoEQBhN
+      AiCMJgEQRpMACKNJAITRJADCaBIAYTQJgDCaBEAYTQIgjCYBEEaTAAijVfWCmBW0y/WrP6Lg
+      eWzfdYT9O7dtWFNCPK8NGwGK85M4sVe4ePEy8UefSFUI0ZA2LAClYpFQOATKQqElAKIhbVgA
+      mtq2kk7EyWeTqGCLXBQvGtKGBUCF2zi6p4PBTyY4ebJXAiAa0sbtBANbd7zK1h0b2YIQL6YS
+      gEKhQDab3fAGa9HGWrzOS+i2hbq1r7VGGV2Ya2lvsDHeA6V1besEJpNJOjo6atlkQ3Ech0Bg
+      Qwfehua6LkopLKsxPoIy9y9RJ7Zt13sV6qpRNvwlEoAaM3v603ivf9MFIJ9JcvP2AzyvQPP2
+      fbTpJCMzWTwd4PKFM9iWopSdo3/wPq5ToLVzP606yUgiS9GFN14/3yCz0+dTXJxn4OY9HCdP
+      rOsA7aR4EE/jaZtLF88StPxXp0s5/uXv/5XL776Lnn7I0OQ8JRc+8/p57AbbSJ+d5uaV/2Im
+      1MPrvTu4cvUGKM3BE2cr96kY+NH/kLWaN9+5QOHmdvrOnaV3/y6y2UXGEgtcvHCeriZILfpl
+      2QNNbfT1nWVPzzYKhSKP4mkuXjjHq1GXeL7OL+AFBSOtnDl7lt092ykWi4zG57l08QI72wLM
+      Ljx+cXduD7J3/360hkeTKS5cPM/eVsVU1q3j2ldHOvEIr7mTiA3TY4949egZXj93nOGRscoy
+      s/MLRCLhzRcApWD4bj83R9OcOb4PD7CUIqgs5lJxrn10g7zrMfbwLsMTKVqaI/7PoQiHNMVi
+      fdf/RSmlGH94l5HJFC1NEVzKr9+ymZ9LcO2jfhJToxQj22mL+hMArZdePy/969dukTsPpzm8
+      txuAkucSsG0sO4Au5hkc6OfRVJLPfP6nOXpw3+YLQGZ6hBmnlYtnjhOwFC22ZjazSHwhy86u
+      VzjTdxI3M0dr1x5OnzzK5MQY0YBLKldgZLbEjli9X8GLyc0nae7czWsnDxOfmKQtCNPzOabm
+      0uzsfoUzfacIWjalTIK7Q0M8eDBMU1gzu7DISKLAjraXe5PwXIdwAG7cuMnw0EMiza1MjE8Q
+      nxinrXMHvSdOsWtHjEcjE1iBwOY7DLq4MMvgvWE0sK17N7s6Y9wdvMO2XQfYtqUZBXhOgfv3
+      7pHXQXqPHCKoXO7cusXWnQfobG/ZsHWrBc8p8Mm9e+R1iMOHDxJSDnfv3KG9ex+dHStPScmk
+      ktixNiKW5t7t27T17KWrPbYp7h/iOQVSmQIdbTGmx4dJFWwO7duFpRSgyaQSfDI8yf8DUo+A
+      L+1oyxQAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      AAgGAvg/w71i1rHz7k8AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      ZQ0B1pw6y4Lzl8Zdg7wgQ2SMx+Hg0YpKHiqbTnXHTb5sbKC+O4iZxG9yYBxrAX2bBEBknNvh
+      YEnZdBaVlNHa18uZ1mYud7TTEeof9bOBaPKrwX2bDIHEIF2tdZy/Uoc3u5ClixfQ2VRLY7fB
+      koVz0bXbbWfK4PzpEzjyyplXWUZbfS3NffDgwjkpWUYxbhi09fVysb2Na11dtPb1EjcHP/X1
+      6y0f4AyHx/09cgYQg5w6doy5K54k4HER67rKzmNXWV6hs+8LG2sfqQLg0O4PyJ27DLdNEems
+      ZdexWpZVwIHjGk8+XDXhGhw2G+U5uZTn5GKYJuF4nNa+Xpp6e2jr66UzFCIei2Af4zvBNI8H
+      W1YWtsJCnNOn4SgvxzmnSgIgBguHIxw/eojSWfdT1HedxStWM7/cy7ktW+B2AL66cpVZMVD+
+      EuKOGzzw2OssKIhy7uO9kIIAfJtN1/G7XMxxFTLn9krVpmmSME1sSx/B7A9h9vagojFUPI4y
+      Emh2B5rLhe52oefkoLvdYLejORxo2t1zlARADPL8pr9GKZPtf95MIC+HhGECCVAODu3djnf6
+      Yvy5pTy74UUOvfNH2qa7cSQSKAz0SZpa0nUdp66D34/N74eS4nHtRwIgvifBwb17iCgbfTEX
+      85Yv5+0t79Pg0Zi97FmWzfn6F9hou8COnbvojNh4fdnjbN68mSa/xv0PP5fh+pMjF8FiECMR
+      JxyJ4vZ4sdt04rEocUPhcbu+GT4opQgPhLA7PTgdd7YBj8d9T7xL4A4JgLA06QUSliYBEJYm
+      ARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQ
+      liYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYm
+      ARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCW9v8B
+      8e1Zf1FQoAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
